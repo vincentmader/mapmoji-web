@@ -1,3 +1,4 @@
 #!/bin/sh
 
-cd src && python3 main.py
+# Start flask server.
+  cd src && python3 main.py
