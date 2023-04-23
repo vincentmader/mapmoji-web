@@ -17,7 +17,7 @@ def index():
 @app.route("/<name>")
 def hello(name):
     props = {"name": name}
-    return render_template("template.html", props=props)
+    return render_template("base.html", props=props)
 
 
 if __name__ == "__main__":
