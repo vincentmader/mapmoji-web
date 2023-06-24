@@ -7,8 +7,10 @@ services:
     restart: always
     environment:
       VIRTUAL_HOST: python_flask.lo  # TODO Specfiy domain name.
+      # LETSENCRYPT_HOST: todo       # TODO Specfiy domain name.
+      # LETSENCRYPT_MAIL: vincent.mader@icloud.com
     ports:
-      - 5000:5000  # TODO Specify port.
+      - 5005:5005  # TODO Specify port.
     networks:
       - reverse-proxy
 
