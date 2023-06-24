@@ -10,12 +10,12 @@ function format_date(date) {
     if (month < 10) {
         month = "0" + month
     }
-    text = year + "-" + month + "-" + day 
-    text += " " + hour + ":" + minute + ":" + second; 
+    text = year + "-" + month + "-" + day
+    text += " " + hour + ":" + minute + ":" + second;
     return text
 }
 
-async function clock(){
+async function clock() {
     while (true) {
         let now = new Date();
         let text = "The time is " + format_date(now);
