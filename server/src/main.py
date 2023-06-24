@@ -11,13 +11,18 @@ app = Flask(
 
 @app.route("/")
 def index():
-    return "<p>Hello, Flask!</p>"
+    props = {
+        "name": "world"
+    }
+    return render_template("index.html", props=props)
 
 
-@app.route("/<name>")
+@app.route("/hello/<name>")
 def hello(name):
-    props = {"name": name}
-    return render_template("base.html", props=props)
+    props = {
+        "name": name
+    }
+    return render_template("index.html", props=props)
 
 
 if __name__ == "__main__":
