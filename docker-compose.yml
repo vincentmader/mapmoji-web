@@ -3,7 +3,7 @@ version: "3.3"
 services:
   my-server:
     build:
-      context: ./server
+      context: ./
     restart: always
     environment:
       VIRTUAL_HOST: python_flask.lo  # TODO Specfiy domain name.
