@@ -1,7 +1,10 @@
 #!/bin/sh
 
-pip3 install virtualenv
+# Install package for creation of Python virtual environments.
+  pip3 install virtualenv
 
-[ -d ../.venv ] || python3 -m virtualenv ../.venv
+# Check if virtual environment exists, if not: Create it.
+  [ -d ../.venv ] || python3 -m virtualenv ../.venv
 
-../.venv/bin/pip3 install -r ../requirements.txt
+# Install Python dependencies.
+  ../.venv/bin/pip3 install -r ../requirements.txt
