@@ -4,6 +4,8 @@ down:
 	docker-compose down
 logs:
 	docker-compose logs -f -t
+setup:
+	cd bin && ./setup.sh
 localhost:
 	./entrypoint.sh
 browser:

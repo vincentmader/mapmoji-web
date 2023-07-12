@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cd .. && ./entrypoint.sh
+cd ../src && ../.venv/bin/python3 main.py
