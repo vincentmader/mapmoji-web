@@ -6,7 +6,8 @@ logs:
 	docker-compose logs -f -t
 setup:
 	cd bin && ./setup.sh
-localhost:
+dev:
+	[ -d .venv ] || make setup
 	./entrypoint.sh
 browser:
 	open http:python_flask.lo
