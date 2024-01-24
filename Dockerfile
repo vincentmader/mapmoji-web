@@ -4,7 +4,9 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install -r requirements.txt
+RUN pip install virtualenv
+RUN virtualenv .venv
+RUN .venv/bin/pip3 install -r requirements.txt
 
 EXPOSE 5000
 
