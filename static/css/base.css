@@ -20,11 +20,6 @@ body {
     display: flex;
     justify-content: center;
 
-    img {
-        height: 30vh;
-        width: 30vh;
-    }
-
     h1 {
         text-align: center;
     }
@@ -58,14 +53,23 @@ body {
     color: black;
 
     p {}
+
+    ul li {
+        /* padding-bottom: 0.25em; */
+    }
 }
 
-#imprint {
-    padding: 0.5em;
+img {
+    height: 30vh;
+    width: 30vh;
+}
 
-    a {
-        font-size: 1em;
-        text-decoration: underline;
-        color: white;
-    }
+#footer {
+    height: 1.5em;
+}
+
+#footer a {
+    padding: 0.25em;
+    padding-left: 0.5em;
+    color: white;
 }
