@@ -34,7 +34,7 @@ body {
 
     /* Desktop */
     @media screen and (min-width: 1000px) {
-        --w: 50%;
+        --w: 65%;
     }
 
     /* Mobile */
