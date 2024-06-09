@@ -10,7 +10,7 @@ services:
       LETSENCRYPT_HOST: mapmoji.barwuerfeln.de
       LETSENCRYPT_MAIL: vincent.mader@icloud.com
     ports:
-      - 5020:5020
+      - 5021:5021
     networks:
       - reverse-proxy
 
