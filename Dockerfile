@@ -8,6 +8,6 @@ RUN pip install virtualenv
 RUN virtualenv .venv
 RUN .venv/bin/pip3 install -r requirements.txt
 
-EXPOSE 5020
+EXPOSE 5021
 
 ENTRYPOINT ./entrypoint.sh
