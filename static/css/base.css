@@ -54,10 +54,6 @@ body {
 
     color: black;
 
-    h2 {
-        margin-top: 0px;
-    }
-
     p {}
 
     ul li {
@@ -110,4 +106,12 @@ ul li {
 .center {
     width: 100%;
     text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.no-top-margin {
+    margin-top: 0px;
 }
