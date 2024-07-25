@@ -54,6 +54,10 @@ body {
 
     color: black;
 
+    h2 {
+        margin-top: 0px;
+    }
+
     p {}
 
     ul li {
@@ -101,4 +105,9 @@ a {
 
 ul li {
     padding-bottom: 0.5em;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
 }
