@@ -89,10 +89,6 @@ h1 {
     margin: 0;
 }
 
-h4 {
-    margin-bottom: 0.0em;
-}
-
 a {
     text-decoration: none;
 }
@@ -110,6 +106,6 @@ ul li {
     font-weight: bold;
 }
 
-.no-top-margin {
-    margin-top: 0px;
+.no-bottom-margin {
+    margin-bottom: 0px;
 }
