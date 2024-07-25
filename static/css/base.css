@@ -54,10 +54,8 @@ body {
 
     color: black;
 
-    p {}
-
-    ul li {
-        /* padding-bottom: 0.25em; */
+    h3 {
+        margin: 0px;
     }
 }
 
